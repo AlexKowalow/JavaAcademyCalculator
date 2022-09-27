@@ -9,6 +9,10 @@ public class Calculator {
         this.logger = logger;
     }
 
+    public Logger getLogger() {
+        return logger;
+    }
+
     public double add(double a, double b) {
         double result = a + b;
         logger.debug(a + " + " + b + " = " + result);
